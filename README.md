@@ -1,2 +1,2 @@
 # RoommateRivalry
-hi my name is abby
+This is the readme for our 307 group project. 
