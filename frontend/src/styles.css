@@ -1,47 +1,47 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.nav{
-    background-color: #8fb7f3;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
+.nav {
+  background-color: #8fb7f3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
 }
 
-.site-title{
-    font-size: 2rem;
-    font: Helvetica;
+.site-title {
+  font-size: 2rem;
+  font: Helvetica;
 }
 
-.nav ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 3rem;
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
 }
 
-.nav a{
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: .25rem;
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
 }
 
 .nav li.active {
-    background-color: #8fb7f3;
+  background-color: #8fb7f3;
 }
 
 .nav li:hover {
-    background-color: #D2E2FA;
+  background-color: #d2e2fa;
 }

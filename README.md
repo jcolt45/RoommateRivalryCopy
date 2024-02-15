@@ -1,2 +1,3 @@
 # RoommateRivalry
-This is the readme for our 307 group project. 
+
+This is the readme for our 307 group project.
