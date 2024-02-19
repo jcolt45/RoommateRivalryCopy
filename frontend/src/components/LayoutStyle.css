@@ -1,0 +1,61 @@
+.LayoutStyle {
+  text-align: center;
+}
+
+.Main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.Column {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+.Column:nth-child(1) {
+  flex: 2; /* Adjusted flex value for the first column, making it wider */
+  height: 235px
+}
+
+.Column:nth-child(2) {
+  flex: 1; /* Adjusted flex value for the second column */
+  height: 350px
+}
+
+.Column:nth-child(3) {
+  flex: 1; /* Adjusted flex value for the third column */
+  height: 500px
+}
+
+.Column h2 {
+  color: #333;
+  margin-bottom: 5px; /* Adjust the margin-bottom for h2 */
+  margin-top: -5px;
+}
+
+.Column p {
+  margin-top: 5px; /* Adjust the margin-top for p */
+}
+
+.ColumnContent {
+  display: flex;
+  align-items: center;
+}
+
+.ImageContainer {
+  flex: 1;
+}
+
+.TextContainer {
+  flex: 2;
+  padding-left: 30px; /* Add padding for spacing between image and text */
+}
+
+.ImageContainer img {
+  max-width: 100%;
+  height: auto;
+}
