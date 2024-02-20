@@ -7,9 +7,9 @@
   "scripts": {
     "format": "npx prettier . --write",
     "lint": "npx eslint .",
-    "front-start": "cd packages/frontend && npm run start",
-    "back-start": "cd packages/express-backend && npm run start",
-    "back-start-dev": "cd packages/express-backend && npm run dev"
+    "front": "cd packages/frontend && npm run start",
+    "back": "cd packages/express-backend && npm run start",
+    "back-dev": "cd packages/express-backend && npm run dev"
   },
   "workspaces": [
     "packages/*"
